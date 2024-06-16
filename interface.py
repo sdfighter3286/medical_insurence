@@ -5,7 +5,7 @@ import traceback
 app = Flask(__name__)
 
 @app.route('/medical_insurence')
-def home1():
+def home():
     
     return render_template('medical_insurence.html')
 
